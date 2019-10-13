@@ -13,7 +13,7 @@ module.exports = {
       resolve: "gatsby-plugin-web-font-loader",
       options: {
         google: {
-          families: ["IBM+Plex+Mono"],
+          families: ["IBM+Plex+Mono:300,400,500,700"],
         },
       },
     },
