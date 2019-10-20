@@ -8,7 +8,7 @@ const PostLink = ({
     frontmatter: { path, date, summary, title },
   },
 }) => (
-  <Box borderBottom="1px solid">
+  <Box sx={{ borderBottom: "1px solid grey" }}>
     <Link to={path}>
       <Heading fontSize={40} m="20px 0">
         {title}
