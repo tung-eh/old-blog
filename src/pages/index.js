@@ -1,5 +1,4 @@
-import { Box, Link } from "rebass"
-import { FaGithub, FaLinkedin } from "react-icons/fa"
+import { Box } from "rebass"
 import React from "react"
 import styled from "styled-components"
 
@@ -40,19 +39,6 @@ const IndexPage = () => (
         <br />
       </Box>
       &#125;
-    </Box>
-    <Box pt={10} fontSize="2.5rem">
-      <Link href="https://github.com/tung-eh" color="inherit" target="blank">
-        <FaGithub />
-      </Link>
-      <Link
-        href="https://www.linkedin.com/in/tùng-nguyễn-774368140"
-        color="inherit"
-        ml={30}
-        target="blank"
-      >
-        <FaLinkedin />
-      </Link>
     </Box>
   </Layout>
 )

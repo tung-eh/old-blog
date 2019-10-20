@@ -1,10 +1,10 @@
 ---
-path: '/hello-world'
-date: '2019-04-23'
-title: 'Test Post'
-summary: 'test post example'
+path: "/hello-world"
+date: "April 23, 2019"
+title: "This is the test post with a long title"
+summary: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
 ---
 
 # Hello World
 
-this is a test post showing how gatsby create pages from markdown files.<Paste>
+This is a test post showing how gatsby create pages from markdown files.
