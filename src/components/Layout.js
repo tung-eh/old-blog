@@ -1,10 +1,9 @@
-import { Box, Flex } from "rebass"
+import { Box, Flex, Link } from "rebass"
 import { FaGithub, FaLinkedin } from "react-icons/fa"
 import { ThemeProvider } from "styled-components"
 import React from "react"
 
 import Container from "./Container"
-import Link from "./Link"
 import Navbar from "./Navbar"
 import theme from "../theme"
 
